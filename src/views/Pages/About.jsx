@@ -19,19 +19,15 @@ function About() {
       </div>
       <div className="img2">
         <img className="aboutImg" src={logo} />
-        <h1 className="aboutText">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam{" "}
-          <br />
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat{" "}
-          <br />
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation{" "}
-          <br />
-          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo <br />
-          consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate{" "}
-          <br />
-          velit esse molestie consequat, vel illum dolore eu feugiat nulla{" "}
-          <br />
-          facilisis at vero eros et
+        <h1 className="aboutText2">
+          Lorem ipsum dolor sit amet, consectetuer <br /> adipiscing elit, sed
+          diam nonummy nibh <br /> euismod tincidunt ut laoreet dolore magna{" "}
+          <br /> aliquam erat volutpat. Ut wisi enim ad minim <br /> veniam,
+          quis nostrud exerci tation ullamcorper <br /> suscipit lobortis nisl
+          ut aliquip ex ea commodo <br /> consequat. Duis autem vel eum iriure
+          dolor in <br /> hendrerit in vulputate velit esse molestie <br />{" "}
+          consequat, vel illum dolore eu feugiat nulla <br /> facilisis at vero
+          eros et
         </h1>
       </div>
       <div className="img3">
@@ -51,7 +47,8 @@ function About() {
             backgroundColor: "#02b4b9",
             color: "#FFF",
             display: "block",
-            marginLeft: "150px"
+            marginLeft: "150px",
+            fontSize: "25px"
           }}
           variant="contained"
         >
@@ -59,7 +56,7 @@ function About() {
         </Button>
         <img
           className="aboutOneStopImg"
-          style={{ width: "1130px", height: "768px" }}
+          style={{ width: "1130px", height: "868px" }}
           src={logo2}
         />
       </div>

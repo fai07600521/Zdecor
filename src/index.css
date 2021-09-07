@@ -17,6 +17,7 @@ code {
   text-decoration: none;
   margin-right: 50px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
 }
 .navText:hover {
   color: #02b4b9;
@@ -43,7 +44,7 @@ code {
 
 .aboutImg {
   width: 683px;
-  height: 768px;
+  height: 798px;
   margin-left: 150px;
   margin-top: -150px;
 }
@@ -52,7 +53,7 @@ code {
   color: #ffff;
   text-decoration: none;
   font-family: SukhumvitSet, serif;
-  font-size: 20px;
+  font-size: 25px;
   display: inline-block;
   right: 300px;
   text-align: left;
@@ -62,7 +63,7 @@ code {
 .aboutOneStopImg {
   display: inline-block;
   float: right;
-  margin-top: -599px;
+  margin-top: -799px;
 }
 
 .aboutOneStopText {
@@ -70,4 +71,16 @@ code {
   margin-left: 150px;
   font-size: 100px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.aboutText2 {
+  color: #ffff;
+  text-decoration: none;
+  font-family: SukhumvitSet, serif;
+  font-size: 25px;
+  display: inline-block;
+  right: 200px;
+  text-align: left;
+  position: absolute;
+  margin-top: 170px;
 }
