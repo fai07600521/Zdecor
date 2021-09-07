@@ -1,0 +1,12 @@
+.imgg {
+  background-image: url('../img/kam-idris-_HqHX3LBN18-unsplash.jpg');
+  background-size: cover;
+}
+
+.navText {
+    color: #555866;
+    
+}
+.navText:hover {
+    color: #02b4b9;
+}

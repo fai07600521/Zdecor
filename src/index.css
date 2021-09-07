@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navText {
+  color: black;
+  text-decoration: none;
+  margin-right: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navText:hover {
+  color: #02b4b9;
+}
+
+.navTextRight {
+  text-align: right;
+  margin-top: -180px;
+}
+
+@font-face {
+  font-family: 'SukhumvitSet';
+  src: local('SukhumvitSet'),
+    url(./assets/fonts/SukhumvitSet.ttc) format('truetype');
+}
+
+.aboutFont {
+  font-family: SukhumvitSet, serif;
+  color: #ffff;
+  font-size: 80px;
+  margin: 80px;
+  margin-top: 280px;
+}
+
+.aboutImg {
+  width: 683px;
+  height: 768px;
+  margin-left: 150px;
+  margin-top: -150px;
+}
+
+.aboutText {
+  color: #ffff;
+  text-decoration: none;
+  font-family: SukhumvitSet, serif;
+  font-size: 20px;
+  display: inline-block;
+  right: 300px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.aboutOneStopImg {
+  display: inline-block;
+  float: right;
+  margin-top: -599px;
+}
+
+.aboutOneStopText {
+  color: #02b4b9;
+  margin-left: 150px;
+  font-size: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
